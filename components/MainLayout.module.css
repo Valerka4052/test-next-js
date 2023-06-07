@@ -1,13 +1,17 @@
 .header{
+    /* position: fixed; */
 max-width: 1280px;;
 display: flex;
 justify-content: space-between;
 padding: 10px 30px;
 margin-right: auto;
 margin-left: auto;
+background-color: darksalmon;
+border-bottom: 2px solid white;
 }
 .linkContainer{
 display: flex;
+position: relative;
 /* width: 80%; */
 }
 .link{
@@ -48,6 +52,7 @@ margin-bottom: 15px;
 font-size: large;
 font-weight: 600;
 color: white;
+text-transform: uppercase;
 font-size: 24px
 }
 .centerContainer{
@@ -61,6 +66,13 @@ height: 100px;
 border-radius: 50%;
 overflow: hidden;
 
+}
+.main{
+    max-width: 1280px;
+    margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
 }
 @media screen and (max-width: 1024px) {
     .img {
@@ -80,4 +92,26 @@ overflow: hidden;
 .header{
     justify-content: center;
 }
+}
+.but{
+    position: relative;
+        text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            margin-right: 25px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+}
+
+.hid{
+
+    position: absolute;
+    width: auto;
+    top: 30px;
+    left:50%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+
 }
