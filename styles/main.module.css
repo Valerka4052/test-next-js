@@ -1,16 +1,20 @@
 .imgBox{
-    /* width: 50%; */
+    width: 100%;
 /* position: absolute; */
 border-radius: 10px;
 overflow: hidden;
+        float: right;
+  position: static;
+width: 50%;
 
 }
 .textBox{
+    margin-top: 20px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: rgb(56, 42, 42);
+    background-color: rgba(56, 42, 42,0.5);
     color: rgb(255, 255, 255);
-
+width: 100%;
     padding: 20px;
 }
 .text{
@@ -20,11 +24,11 @@ color: rgb(255, 255, 255);
 }
 .container{
 /* position: relative; */
-padding: 30px;
+
 display: flex;
 gap: 20px;
 justify-content: space-between;
-
+width: 100%;
 }
 @media screen and (max-width: 1024px) {
     .container {
@@ -35,8 +39,9 @@ justify-content: space-between;
           align-items: center;
         }
     .imgBox {
+        float: right;
   position: static;
-
+width: 50%;
     }
         .textBox {
 position: static;
