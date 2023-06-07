@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from './MainLayout.module.css'
 import { useState } from "react"
-export const MainLayout = ({title,children}) => {
+export const MainLayout = ({title='Адвокат',children}) => {
     const [show, setShow] = useState(false);
     const toggleShow=()=>{setShow(prev=>!prev)}
     return (
@@ -13,7 +13,7 @@ export const MainLayout = ({title,children}) => {
                 
                 <div className={styles.img}> <Image src="/head.jpg" width={100} height={100} alt="justise" /></div>
                 <div className={styles.centerContainer}>
-                    <p className={styles.nameText} >Білека Юрій Іванович</p>
+                    <p className={styles.nameText} >Адвокат, юрист Білека Юрій Іванович</p>
                     <div className={styles.linkContainer}>
                     <Link className={styles.link} href={'/'}>Про мене</Link>
                         <Link className={styles.link} href={'/practice'}>практика</Link>
