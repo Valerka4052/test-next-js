@@ -1,0 +1,41 @@
+.imgBox{
+position: absolute;
+border-radius: 10px;
+overflow: hidden;
+top: 20%;
+left:50%;
+}
+.textBox{
+    border: 1px solid white;
+    border-radius: 10px;
+position: absolute;
+width: 30%;
+/* height: 280px; */
+top: 40%;
+    right: 55%;
+    padding: 20px;
+}
+.text{
+font-size: 18px;
+}
+.container{
+/* position: relative; */
+padding: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+            /* position: relative; */
+          justify-content: center;
+          align-items: center;
+        }
+    .imgBox {
+  position: static;
+
+    }
+        .textBox {
+position: static;
+width: 100%;
+margin-bottom: 20px;
+}}
