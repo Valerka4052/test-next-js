@@ -3,9 +3,9 @@
 /* position: absolute; */
 border-radius: 10px;
 overflow: hidden;
-        float: right;
+        /* float: right; */
   position: static;
-width: 50%;
+width: 100%;
 
 }
 .textBox{
@@ -30,6 +30,12 @@ gap: 20px;
 justify-content: space-between;
 width: 100%;
 }
+@media screen and (min-width: 768px) {
+    .imgBox{
+float: right;
+width: 50%;
+    }
+}
 @media screen and (max-width: 1024px) {
     .container {
         display: flex;
@@ -39,7 +45,7 @@ width: 100%;
           align-items: center;
         }
     .imgBox {
-        float: right;
+        /* float: right; */
   position: static;
 width: 50%;
     }

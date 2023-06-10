@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from '../styles/main.module.css'
 export default function MainPage  ()  {
     return (
-        <MainLayout title={'Про мене'}>
+        <MainLayout title={'Послуги адвоката'}>
             <div className={ styles.main}>
             <div className={styles.container}>
                     <div className={styles.textBox}>
@@ -22,31 +22,19 @@ export default function MainPage  ()  {
 Рано чи пізно багато з нас у повсякденному житті зіштовхуються з такими проблемами, які дуже складно, а часом навіть неможливо вирішити без допомоги фахівця.
 
 Відповідно до Конституції України кожен має право на правову допомогу. Дуже важливо, щоб така допомога була якісною і результативною. </p>
-                    {/* <ul>
-                        <li><p>різного роду список</p></li>
-                        <li><p>різного роду список</p></li>
-                        <li><p>різного роду список</p></li>
-                        <li><p>різного роду список</p></li>
-                         <li><p>різного роду список</p></li>
-                    </ul> */}
-                                        {/* <p className={styles.text}>тут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потрібно вставити текст про себе, освіту досвід та стаж роботи</p> */}
-
-                </div>
-                {/* <div className={styles.box}>
-                    <div className={styles.imgBox}><Image priority={true} src="/1.jpg" width={450} height={280} alt="Юрій Білека" /></div>
-                    <div className={styles.textBox}><p className={styles.text}>тут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потртут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потртут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потртут буде потрібно вставити текст про себе, освіту досвід та стаж роботитут буде потр</p></div>
-                </div> */}
+      </div>
                                </div>
                  <div className={styles.items}>
                     <p className={styles.docText}>сертифікати та документи</p>
                     <ul className={styles.docs} >
-                        <li className={styles.item} ><div><Image Image priority={true} src="/1.jpg" width={400} height={300} alt="Юрій Білека" /></div></li>
-                        <li className={styles.item}><div><Image Image priority={true} src="/1.jpg" width={400} height={300} alt="Юрій Білека" /></div></li>
-                        <li className={styles.item}><div><Image Image priority={true} src="/1.jpg" width={400} height={300} alt="Юрій Білека" /></div></li>
-                         {/* <li className={styles.item}><div><Image Image priority={true} src="/1.jpg" width={400} height={300} alt="Юрій Білека"/></div></li> */}
+                        <li className={styles.item} ><div><Image Image priority={true} src="/no.jpg" width={400} height={300} alt="Юрій Білека" /></div></li>
+                        <li className={styles.item}><div><Image Image priority={true} src="/no.jpg" width={400} height={300} alt="Юрій Білека" /></div></li>
+                        <li className={styles.item}><div><Image Image priority={true} src="/no.jpg" width={400} height={300} alt="Юрій Білека" /></div></li>
+                         <li className={styles.item}><div><Image Image priority={true} src="/no.jpg" width={400} height={300} alt="Юрій Білека"/></div></li>
                     </ul>
                 </div>
                 </div>
+               
         </MainLayout>
     );
 };
